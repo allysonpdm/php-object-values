@@ -7,7 +7,7 @@
         }
     },
     "description": "Descrição do seu projeto",
-    "name": "allyson/projeto",
+    "name": "allyson/php-object-values",
     "require": {
         "illuminate/support": "*",
         "illuminate/validation": "^10.20",
