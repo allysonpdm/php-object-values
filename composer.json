@@ -6,7 +6,7 @@
             "Test\\": "src/test"
         }
     },
-    "description": "Descrição do seu projeto",
+    "description": "Object Values para PHP",
     "name": "allyson/php-object-values",
     "require": {
         "illuminate/support": "*",
