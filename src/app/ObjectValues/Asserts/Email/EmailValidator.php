@@ -22,7 +22,7 @@ class EmailValidator extends ConstraintValidator
             throw new InvalidArgumentException('Um e-mail deve ser informado');
         }
 
-        if (!EmailMxValidationRule::isValid($value, $constraint->decimalPlaces)) {
+        if (!EmailMxValidationRule::isValid($value)) {
             $this->context->buildViolation($constraint->message)
                 ->setParameter('{{ value }}', $value)
                 ->addViolation();

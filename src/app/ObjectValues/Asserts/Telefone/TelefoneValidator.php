@@ -22,7 +22,7 @@ class TelefoneValidator extends ConstraintValidator
             throw new InvalidArgumentException('Um telefone deve ser informado');
         }
 
-        if (!PhoneValidationRule::isValid($value, $constraint->decimalPlaces)) {
+        if (!PhoneValidationRule::isValid($value)) {
             $this->context->buildViolation($constraint->message)
                 ->setParameter('{{ value }}', $value)
                 ->addViolation();
