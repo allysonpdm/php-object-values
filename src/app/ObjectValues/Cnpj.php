@@ -35,7 +35,7 @@ class Cnpj extends ObjectValue implements Maskable, Sanitizable, Obfuscatable
 
     protected function validate(): void
     {
-        $validator = Validation::createValidatorBuilder();
+        $validator = Validation::createValidator();
         $violations = $validator->validate($this->value, [
             new NotBlank(),
             new Type('string'),
