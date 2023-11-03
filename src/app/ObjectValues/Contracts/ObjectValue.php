@@ -6,8 +6,11 @@ use Stringable;
 
 abstract class ObjectValue implements Stringable
 {
-    public function __construct(protected mixed $value)
+    protected mixed $value;
+
+    public function __construct($value = null)
     {
+        $this->value = $value;
         $this->validate();
     }
 
