@@ -8,7 +8,7 @@ abstract class ObjectValue implements Stringable
 {
     public function __construct(protected mixed $value)
     {
-        $this->validate($this->value);
+        $this->validate();
     }
 
     protected abstract function validate(): void;
