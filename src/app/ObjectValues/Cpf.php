@@ -36,7 +36,7 @@ class Cpf extends ObjectValue implements Maskable, Sanitizable, Obfuscatable
 
     protected function validate(): void
     {
-        $validator = Validation::createValidator();
+        $validator = Validation::createValidatorBuilder();
         $violations = $validator->validate($this->value, [
             new NotBlank(),
             new Type('string'),

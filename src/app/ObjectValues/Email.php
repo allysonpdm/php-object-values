@@ -24,7 +24,7 @@ class Email extends ObjectValue implements Obfuscatable
 
     protected function validate(): void
     {
-        $validator = Validation::createValidator();
+        $validator = Validation::createValidatorBuilder();
         $violations = $validator->validate($this->value, [
             new NotBlank,
             new Type('string'),
@@ -32,7 +32,6 @@ class Email extends ObjectValue implements Obfuscatable
             new AssertMXEmail
         ]);
 
-        
         if(count($violations) > 0){
             throw new InvalidArgumentException($violations[0]->getMessage());
         }

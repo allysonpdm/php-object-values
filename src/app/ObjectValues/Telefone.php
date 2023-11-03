@@ -34,7 +34,7 @@ class Telefone extends ObjectValue implements Maskable, Sanitizable, Obfuscatabl
 
     protected function validate(): void
     {
-        $validator = Validation::createValidator();
+        $validator = Validation::createValidatorBuilder();
         $violations = $validator->validate($this->value, [
             new NotBlank(),
             new Type('string'),

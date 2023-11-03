@@ -45,7 +45,7 @@ class Decimal extends ObjectValue
             throw new InvalidArgumentException('Invalid decimal separator');
         }
 
-        $validator = Validation::createValidator();
+        $validator = Validation::createValidatorBuilder();
         $violations = $validator->validate($this->value, [
             new NotBlank(),
             new Type('numeric'),
