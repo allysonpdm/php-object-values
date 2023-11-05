@@ -2,7 +2,7 @@
 
 namespace App\Enums\Brazil;
 
-enum States: string
+enum StatesEnum: string
 {
     case AMAZONAS = 'AM';
     case ACRE = 'AC';
@@ -31,4 +31,5 @@ enum States: string
     case SAO_PAULO = 'SP';
     case SERGIPE = 'SE';
     case TOCANTINS = 'TO';
+    case EXTERIOR = 'EX';
 }
