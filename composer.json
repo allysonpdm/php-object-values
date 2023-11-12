@@ -1,9 +1,13 @@
 {
+    "autoloa-dev": {
+        "psr-4": {
+            "PhpObjectValues\\Tests\\": "src/tests"
+        }
+    },
     "autoload": {
         "psr-4": {
-            "App\\": "src/app",
-            "Config\\": "src/config",
-            "Test\\": "src/test"
+            "PhpObjectValues\\App\\": "src/app",
+            "PhpObjectValues\\Config\\": "src/config"
         }
     },
     "description": "Object Values para PHP",

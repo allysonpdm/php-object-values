@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Cnpj;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Cnpj;
 
-use App\Rules\CnpjValidationRule;
+use PhpObjectValues\App\Rules\CnpjValidationRule;
 use InvalidArgumentException;
 use Symfony\Component\Validator\{
     Constraint,

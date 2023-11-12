@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Rules;
+namespace PhpObjectValues\App\Rules;
 
-use App\Rules\Contracts\StaticValidator;
 use Closure;
+use PhpObjectValues\App\Rules\Contracts\StaticValidator;
 use Illuminate\Contracts\Validation\ValidationRule;
 use InvalidArgumentException;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Contracts\ObjectValue;
+use PhpObjectValues\App\ObjectValues\Contracts\ObjectValue;
 use InvalidArgumentException;
 
 class Regex extends ObjectValue

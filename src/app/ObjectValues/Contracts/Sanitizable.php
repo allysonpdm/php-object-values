@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Contracts;
+namespace PhpObjectValues\App\ObjectValues\Contracts;
 
-use App\ObjectValues\Regex;
+use PhpObjectValues\App\ObjectValues\Regex;
 
 interface Sanitizable {
     /**

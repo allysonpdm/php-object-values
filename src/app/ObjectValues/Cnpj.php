@@ -1,15 +1,15 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Asserts\Cnpj\Cnpj as AssertCnpj;
-use App\ObjectValues\Contracts\{
+use PhpObjectValues\App\ObjectValues\Asserts\Cnpj\Cnpj as AssertCnpj;
+use PhpObjectValues\App\ObjectValues\Contracts\{
     Maskable,
     Obfuscatable,
     ObjectValue,
     Sanitizable
 };
-use App\ObjectValues\Traits\{
+use PhpObjectValues\App\ObjectValues\Traits\{
     Masked,
     Obfuscated,
     Sanitized

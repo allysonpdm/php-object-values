@@ -1,9 +1,9 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Asserts\Decimal\Decimal as AssertDecimal;
-use App\ObjectValues\Contracts\ObjectValue;
+use PhpObjectValues\App\ObjectValues\Asserts\Decimal\Decimal as AssertDecimal;
+use PhpObjectValues\App\ObjectValues\Contracts\ObjectValue;
 use InvalidArgumentException;
 use Symfony\Component\Validator\Constraints\{
     NotBlank,

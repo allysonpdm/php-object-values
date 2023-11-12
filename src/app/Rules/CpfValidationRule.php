@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Rules;
+namespace PhpObjectValues\App\Rules;
 
-use App\Rules\Contracts\StaticValidator;
+use PhpObjectValues\App\Rules\Contracts\StaticValidator;
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
 

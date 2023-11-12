@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Email;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Email;
 
-use App\Rules\{
+use PhpObjectValues\App\Rules\{
     EmailMxValidationRule
 };
 use InvalidArgumentException;

@@ -1,13 +1,13 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\Rules\DetranPlateRule;
-use App\ObjectValues\Contracts\{
+use PhpObjectValues\App\Rules\DetranPlateRule;
+use PhpObjectValues\App\ObjectValues\Contracts\{
     ObjectValue,
     Sanitizable
 };
-use App\ObjectValues\Traits\Sanitized;
+use PhpObjectValues\App\ObjectValues\Traits\Sanitized;
 use Illuminate\Support\Facades\Validator;
 use InvalidArgumentException;
 

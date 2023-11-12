@@ -1,14 +1,14 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Contracts\{
+use PhpObjectValues\App\ObjectValues\Contracts\{
     Maskable,
     Obfuscatable,
     ObjectValue,
     Sanitizable
 };
-use App\ObjectValues\Traits\{
+use PhpObjectValues\App\ObjectValues\Traits\{
     Masked,
     Obfuscated,
     Sanitized

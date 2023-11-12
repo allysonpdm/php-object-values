@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\ObjectValues;
 
-use App\ObjectValues\Email;
+use PhpObjectValues\App\ObjectValues\Email;
 use InvalidArgumentException;
 #use Tests\TestCase;
 use Illuminate\Support\Str;

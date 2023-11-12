@@ -3,7 +3,7 @@
 namespace Tests\Unit\Rules;
 
 use PHPUnit\Framework\TestCase;
-use App\Rules\CnpjValidationRule;
+use PhpObjectValues\App\Rules\CnpjValidationRule;
 
 class CnpjValidationRuleTest extends TestCase
 {

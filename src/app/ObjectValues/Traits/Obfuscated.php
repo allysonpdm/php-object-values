@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ObjectValues\Traits;
+namespace PhpObjectValues\App\ObjectValues\Traits;
 
 trait Obfuscated
 {

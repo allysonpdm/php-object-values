@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Rules\Contracts;
+namespace PhpObjectValues\App\Rules\Contracts;
 
 interface StaticValidator
 {

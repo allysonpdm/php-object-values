@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Traits;
+namespace PhpObjectValues\App\ObjectValues\Traits;
 
-use App\ObjectValues\Regex;
+use PhpObjectValues\App\ObjectValues\Regex;
 
 trait Sanitized
 {

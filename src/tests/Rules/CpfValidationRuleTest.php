@@ -3,7 +3,7 @@
 namespace Tests\Unit\Rules;
 
 use PHPUnit\Framework\TestCase;
-use App\Rules\CpfValidationRule;
+use PhpObjectValues\App\Rules\CpfValidationRule;
 
 class CpfValidationRuleTest extends TestCase
 {

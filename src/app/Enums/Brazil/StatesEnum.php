@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Enums\Brazil;
+namespace PhpObjectValues\App\Enums\Brazil;
 
 enum StatesEnum: string
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Asserts\CpfCnpj;
+namespace PhpObjectValues\App\ObjectValues\Asserts\CpfCnpj;
 
-use App\Rules\{
+use PhpObjectValues\App\Rules\{
     CnpjValidationRule,
     CpfValidationRule
 };

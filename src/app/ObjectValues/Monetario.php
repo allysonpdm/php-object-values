@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
 class Monetario extends Decimal
 {

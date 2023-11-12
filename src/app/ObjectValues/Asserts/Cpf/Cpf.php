@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Cpf;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Cpf;
 
 use Symfony\Component\Validator\Constraint;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Contracts\ObjectValue;
-use App\Rules\UriRule;
+use PhpObjectValues\App\ObjectValues\Contracts\ObjectValue;
+use PhpObjectValues\App\Rules\UriRule;
 use InvalidArgumentException;
 
 class Uri extends ObjectValue

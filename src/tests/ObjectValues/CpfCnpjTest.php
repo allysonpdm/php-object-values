@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\ObjectValues;
 
-use App\ObjectValues\CpfCnpj;
+use PhpObjectValues\App\ObjectValues\CpfCnpj;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 

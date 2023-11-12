@@ -3,7 +3,7 @@
 namespace Tests\Unit\ObjectValues;
 
 #use Tests\TestCase;
-use App\ObjectValues\Decimal;
+use PhpObjectValues\App\ObjectValues\Decimal;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\Rules\DecimalRule;
+use PhpObjectValues\App\Rules\DecimalRule;
 use Illuminate\Support\Facades\Validator;
 use InvalidArgumentException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Decimal;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Decimal;
 
 use Symfony\Component\Validator\Constraint;
 

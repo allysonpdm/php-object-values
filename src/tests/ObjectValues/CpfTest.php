@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\ObjectValues;
 
-use App\ObjectValues\Cpf;
+use PhpObjectValues\App\ObjectValues\Cpf;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 #use Tests\TestCase;

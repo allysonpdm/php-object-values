@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ObjectValues\Contracts;
+namespace PhpObjectValues\App\ObjectValues\Contracts;
 
 use Stringable;
 

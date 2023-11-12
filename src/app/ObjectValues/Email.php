@@ -1,13 +1,13 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Asserts\Email\Email as AssertMXEmail;
-use App\ObjectValues\Contracts\{
+use PhpObjectValues\App\ObjectValues\Asserts\Email\Email as AssertMXEmail;
+use PhpObjectValues\App\ObjectValues\Contracts\{
     Obfuscatable,
     ObjectValue
 };
-use App\ObjectValues\Traits\Obfuscated;
+use PhpObjectValues\App\ObjectValues\Traits\Obfuscated;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Str;
 use InvalidArgumentException;

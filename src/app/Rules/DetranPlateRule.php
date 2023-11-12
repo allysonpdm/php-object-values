@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Rules;
+namespace PhpObjectValues\App\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

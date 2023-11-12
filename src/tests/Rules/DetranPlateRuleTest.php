@@ -3,7 +3,7 @@
 namespace Tests\Unit\Rules;
 
 use PHPUnit\Framework\TestCase;
-use App\Rules\DetranPlateRule;
+use PhpObjectValues\App\Rules\DetranPlateRule;
 
 class DetranPlateRuleTest extends TestCase
 {

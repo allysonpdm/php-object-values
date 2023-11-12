@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Email;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Email;
 
 use Symfony\Component\Validator\Constraint;
 

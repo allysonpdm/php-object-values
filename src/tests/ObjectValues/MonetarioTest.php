@@ -3,7 +3,7 @@
 namespace Tests\Unit\ObjectValues;
 
 #use Tests\TestCase;
-use App\ObjectValues\Monetario;
+use PhpObjectValues\App\ObjectValues\Monetario;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 

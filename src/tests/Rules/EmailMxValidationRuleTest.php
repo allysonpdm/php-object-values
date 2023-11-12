@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\Rules;
 
-use App\Rules\EmailMxValidationRule;
+use PhpObjectValues\App\Rules\EmailMxValidationRule;
 use PHPUnit\Framework\TestCase;
 
 class EmailMxValidationRuleTest extends TestCase

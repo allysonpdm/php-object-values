@@ -3,7 +3,7 @@
 namespace Tests\Unit\Rules;
 
 use PHPUnit\Framework\TestCase;
-use App\Rules\DecimalRule;
+use PhpObjectValues\App\Rules\DecimalRule;
 use TypeError;
 
 class DecimalRuleTest extends TestCase

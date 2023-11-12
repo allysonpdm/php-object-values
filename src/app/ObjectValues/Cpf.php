@@ -1,16 +1,16 @@
 <?php
 
-namespace App\ObjectValues;
+namespace PhpObjectValues\App\ObjectValues;
 
-use App\ObjectValues\Asserts\Cpf\Cpf as AssertCpf;
-use App\Rules\CpfValidationRule;
-use App\ObjectValues\Contracts\{
+use PhpObjectValues\App\ObjectValues\Asserts\Cpf\Cpf as AssertCpf;
+use PhpObjectValues\App\Rules\CpfValidationRule;
+use PhpObjectValues\App\ObjectValues\Contracts\{
     Maskable,
     Obfuscatable,
     ObjectValue,
     Sanitizable
 };
-use App\ObjectValues\Traits\{
+use PhpObjectValues\App\ObjectValues\Traits\{
     Masked,
     Obfuscated,
     Sanitized

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Cpf;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Cpf;
 
-use App\Rules\CpfValidationRule;
+use PhpObjectValues\App\Rules\CpfValidationRule;
 use InvalidArgumentException;
 use Symfony\Component\Validator\{
     Constraint,

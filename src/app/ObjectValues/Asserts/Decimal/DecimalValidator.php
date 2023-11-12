@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ObjectValues\Asserts\Decimal;
+namespace PhpObjectValues\App\ObjectValues\Asserts\Decimal;
 
-use App\Rules\{
+use PhpObjectValues\App\Rules\{
     CnpjValidationRule,
     CpfValidationRule,
     DecimalRule

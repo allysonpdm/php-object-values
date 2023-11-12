@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Rules\Gtins;
+namespace PhpObjectValues\App\Rules\Gtins;
 
 use Illuminate\Contracts\Validation\Rule;
 
